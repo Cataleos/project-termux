@@ -47,7 +47,7 @@ async def download_youtube_video(update, context):
         await update.message.reply_text("🔗 Please provide a valid YouTube URL. Usage: /youtube <URL>")
 
 def main():
-    TOKEN = "TOKEN_VALUE_FROM_BOTFATHER"  # Replace with your actual token
+    TOKEN = "8047440424:AAFL8VTZsN0PeLZyW3aHpAzNspnRlbuq1a8"  # Replace with your actual token
 
     # Create the Application and pass it your bot's token
     application = Application.builder().token(TOKEN).build()
